@@ -2,10 +2,10 @@
 AirBnB_clone project dubbed hbnb
 @KALORSOR
 
-Description
+#Description
 This is the first phase of the Airbnb Clone: the console. This repository holds a command interpreter and classes (i.e. BaseModel class and several other classes that inherit from it: Amenity, City, State, Place, Review), and a command interpreter. The command interpreter, like a shell, can be activated, take in user input, and perform certain tasks to manipulate the object instances.
 
-Usage
+#Usage
 Interactive Mode
 
 $ ./console.py
@@ -19,6 +19,7 @@ EOF  help  quit
 (hbnb)
 (hbnb) quit
 $
+
 Non-Interactive Mode
 
 $ echo "help" | ./console.py
